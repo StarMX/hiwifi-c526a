@@ -13,7 +13,7 @@
 # Modify default IP
 sed -i 's/192.168.1.1/10.1.2.1/g' package/base-files/files/bin/config_generate
 # Modify HostName
-sed -i 's/hostname=\'OpenWrt\'/hostname=\'HIWIFI_X\/g' .config
+sed -i 's/OpenWrt/HIWIFI_X/g' .config
 
 
 ## 添加5.10/5.15内核的QCA支持
