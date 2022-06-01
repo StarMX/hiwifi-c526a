@@ -12,3 +12,6 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/10.1.2.1/g' package/base-files/files/bin/config_generate
+
+sed -i 's/CONFIG_PACKAGE_luci-app-ipsec-vpnd/#CONFIG_PACKAGE_luci-app-ipsec-vpnd/g' .config
+sed -i 's/CONFIG_PACKAGE_luci-app-unblockneteasemusic/#CONFIG_PACKAGE_luci-app-unblockneteasemusic/g' .config
