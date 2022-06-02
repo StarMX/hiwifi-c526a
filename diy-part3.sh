@@ -1,7 +1,7 @@
 #去除不要的组件
-sed -i 's/CONFIG_DEFAULT_luci-app-ipsec-vpnd/#CONFIG_DEFAULT_luci-app-ipsec-vpnd/g' .config
-sed -i 's/CONFIG_PACKAGE_luci-app-ipsec-vpnd/#CONFIG_PACKAGE_luci-app-ipsec-vpnd/g' .config
-sed -i 's/CONFIG_PACKAGE_luci-i18n-ipsec-vpnd/#CONFIG_PACKAGE_luci-i18n-ipsec-vpnd/g' .config
+#sed -i 's/CONFIG_DEFAULT_luci-app-ipsec-vpnd/#CONFIG_DEFAULT_luci-app-ipsec-vpnd/g' .config
+#sed -i 's/CONFIG_PACKAGE_luci-app-ipsec-vpnd/#CONFIG_PACKAGE_luci-app-ipsec-vpnd/g' .config
+#sed -i 's/CONFIG_PACKAGE_luci-i18n-ipsec-vpnd/#CONFIG_PACKAGE_luci-i18n-ipsec-vpnd/g' .config
 
 
 sed -i 's/CONFIG_DEFAULT_luci-app-unblockmusi/#CONFIG_DEFAULT_luci-app-unblockmusi/g' .config
