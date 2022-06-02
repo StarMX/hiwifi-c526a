@@ -20,14 +20,14 @@ sed -i "s/OpenWrt /StarZ build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" packag
 
 sed -i 's/\"services\"/\"nas\"/g' feeds/luci/applications/luci-app-samba4/luasrc/controller/samba4.lua
 
-sed -i 's/services/vpn/g' package/helloworld/luci-app-ssr-plus/luasrc/controller/*.lua
-sed -i 's/services/vpn/g' package/helloworld/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/*.lua
-sed -i 's/services/vpn/g' package/helloworld/luci-app-ssr-plus/luasrc/view/shadowsocksr/*.htm
+#sed -i 's/services/vpn/g' package/helloworld/luci-app-ssr-plus/luasrc/controller/*.lua
+#sed -i 's/services/vpn/g' package/helloworld/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/*.lua
+#sed -i 's/services/vpn/g' package/helloworld/luci-app-ssr-plus/luasrc/view/shadowsocksr/*.htm
 
 # Move aliyundrive to nas of menu
-sed -i 's/services/nas/g' package/luci/applications/luci-app-aliyundrive-fuse/luasrc/controller/*.lua
-sed -i 's/services/nas/g' package/luci/applications/luci-app-aliyundrive-fuse/luasrc/cbi/aliyundrive-fuse/*.lua
-sed -i 's/services/nas/g' package/luci/applications/luci-app-aliyundrive-fuse/luasrc/view/aliyundrive-fuse/*.htm
+#sed -i 's/services/nas/g' package/luci/applications/luci-app-aliyundrive-fuse/luasrc/controller/*.lua
+#sed -i 's/services/nas/g' package/luci/applications/luci-app-aliyundrive-fuse/luasrc/cbi/aliyundrive-fuse/*.lua
+#sed -i 's/services/nas/g' package/luci/applications/luci-app-aliyundrive-fuse/luasrc/view/aliyundrive-fuse/*.htm
 
 ## 添加5.10/5.15内核的QCA支持
 #wget -P target/linux/ipq40xx/files/arch/arm/boot/dts/ https://github.com/zxlhhyccc/acc-imq-bbr/raw/master/master/qca/target/linux/ipq40xx/files/arch/arm/boot/dts/qcom-ipq4019-c526a.dts
