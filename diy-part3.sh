@@ -27,3 +27,5 @@ sed -i 's/CONFIG_PACKAGE_luci-i18n-vlmcsd/#CONFIG_PACKAGE_luci-i18n-vlmcsd/g' .c
 sed -i 's/CONFIG_PACKAGE_vlmcsd/#CONFIG_PACKAGE_vlmcsd/g' .config
 
 sed -i 's/CONFIG_DEFAULT_luci-app-adbyby/#CONFIG_DEFAULT_luci-app-adbyby/g' .config
+sed -i 's/CONFIG_PACKAGE_luci-app-adbyby/#CONFIG_PACKAGE_luci-app-adbyby/g' .config
+sed -i 's/CONFIG_PACKAGE_luci-i18n-adbyby/#CONFIG_PACKAGE_luci-i18n-adbyby/g' .config
