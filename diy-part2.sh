@@ -26,6 +26,7 @@ sed -i 's/services/vpn/g' package/helloworld/luci-app-ssr-plus/luasrc/view/shado
 
 # Move aliyundrive to nas of menu
 sed -i 's/services/nas/g' package/luci/applications/luci-app-aliyundrive-fuse/luasrc/controller/*.lua
+sed -i 's/services/nas/g' package/luci/applications/luci-app-aliyundrive-fuse/luasrc/cbi/aliyundrive-fuse/*.lua
 sed -i 's/services/nas/g' package/luci/applications/luci-app-aliyundrive-fuse/luasrc/view/aliyundrive-fuse/*.htm
 
 ## 添加5.10/5.15内核的QCA支持
