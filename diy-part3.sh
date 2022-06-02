@@ -19,7 +19,7 @@ sed -i 's/CONFIG_VSFTPD_USE_UCI_SCRIPTS/#CONFIG_VSFTPD_USE_UCI_SCRIPTS/g' .confi
 sed -i 's/CONFIG_DEFAULT_luci-app-filetransfer/#CONFIG_DEFAULT_luci-app-filetransfer/g' .config
 sed -i 's/CONFIG_PACKAGE_luci-app-filetransfer/#CONFIG_PACKAGE_luci-app-filetransfer/g' .config
 sed -i 's/CONFIG_PACKAGE_luci-i18n-filetransfer/#CONFIG_PACKAGE_luci-i18n-filetransfer/g' .config
-
+sed -i 's/CONFIG_PACKAGE_luci-lib-fs/#CONFIG_PACKAGE_luci-lib-fs/g' .config
 
 sed -i 's/CONFIG_DEFAULT_luci-app-vlmcsd/#CONFIG_DEFAULT_luci-app-vlmcsd/g' .config
 sed -i 's/CONFIG_PACKAGE_luci-app-vlmcsd/#CONFIG_PACKAGE_luci-app-vlmcsd/g' .config
