@@ -4,10 +4,10 @@ sed -i 's/CONFIG_PACKAGE_luci-app-ipsec-vpnd/#CONFIG_PACKAGE_luci-app-ipsec-vpnd
 sed -i 's/CONFIG_PACKAGE_luci-i18n-ipsec-vpnd/#CONFIG_PACKAGE_luci-i18n-ipsec-vpnd/g' .config
 
 
-
-sed -i 's/CONFIG_DEFAULT_luci-app-unblockneteasemusic/#CONFIG_DEFAULT_luci-app-unblockneteasemusic/g' .config
+sed -i 's/CONFIG_DEFAULT_luci-app-unblockmusi/#CONFIG_DEFAULT_luci-app-unblockmusi/g' .config
 sed -i 's/CONFIG_PACKAGE_luci-app-unblockmusic/#CONFIG_PACKAGE_luci-app-unblockmusic/g' .config
 sed -i 's/CONFIG_PACKAGE_luci-i18n-unblockmusic/#CONFIG_PACKAGE_luci-i18n-unblockmusic/g' .config
+sed -i 's/CONFIG_PACKAGE_UnblockNeteaseMusic/#CONFIG_PACKAGE_UnblockNeteaseMusic/g' .config
 
 sed -i 's/CONFIG_DEFAULT_luci-app-vsftpd/#CONFIG_DEFAULT_luci-app-vsftpd/g' .config
 sed -i 's/CONFIG_PACKAGE_luci-app-vsftpd/#CONFIG_DEFAULT_luci-app-vsftpd/g' .config
@@ -29,3 +29,8 @@ sed -i 's/CONFIG_PACKAGE_vlmcsd/#CONFIG_PACKAGE_vlmcsd/g' .config
 sed -i 's/CONFIG_DEFAULT_luci-app-adbyby/#CONFIG_DEFAULT_luci-app-adbyby/g' .config
 sed -i 's/CONFIG_PACKAGE_luci-app-adbyby/#CONFIG_PACKAGE_luci-app-adbyby/g' .config
 sed -i 's/CONFIG_PACKAGE_luci-i18n-adbyby/#CONFIG_PACKAGE_luci-i18n-adbyby/g' .config
+sed -i 's/CONFIG_PACKAGE_adbyby/#CONFIG_PACKAGE_adbyby/g' .config
+
+sed -i 's/CONFIG_DEFAULT_luci-app-accesscontrol/#CONFIG_DEFAULT_luci-app-accesscontrol/g' .config
+sed -i 's/CONFIG_PACKAGE_luci-app-accesscontrol/#CONFIG_PACKAGE_luci-app-accesscontrol/g' .config
+sed -i 's/CONFIG_PACKAGE_luci-i18n-accesscontrol/#CONFIG_PACKAGE_luci-i18n-accesscontrol/g' .config
