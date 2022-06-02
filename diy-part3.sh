@@ -31,6 +31,6 @@ sed -i 's/CONFIG_PACKAGE_luci-app-adbyby/#CONFIG_PACKAGE_luci-app-adbyby/g' .con
 sed -i 's/CONFIG_PACKAGE_luci-i18n-adbyby/#CONFIG_PACKAGE_luci-i18n-adbyby/g' .config
 sed -i 's/CONFIG_PACKAGE_adbyby/#CONFIG_PACKAGE_adbyby/g' .config
 
-sed -i 's/CONFIG_DEFAULT_luci-app-accesscontrol/#CONFIG_DEFAULT_luci-app-accesscontrol/g' .config
-sed -i 's/CONFIG_PACKAGE_luci-app-accesscontrol/#CONFIG_PACKAGE_luci-app-accesscontrol/g' .config
-sed -i 's/CONFIG_PACKAGE_luci-i18n-accesscontrol/#CONFIG_PACKAGE_luci-i18n-accesscontrol/g' .config
+#sed -i 's/CONFIG_DEFAULT_luci-app-accesscontrol/#CONFIG_DEFAULT_luci-app-accesscontrol/g' .config
+#sed -i 's/CONFIG_PACKAGE_luci-app-accesscontrol/#CONFIG_PACKAGE_luci-app-accesscontrol/g' .config
+#sed -i 's/CONFIG_PACKAGE_luci-i18n-accesscontrol/#CONFIG_PACKAGE_luci-i18n-accesscontrol/g' .config
