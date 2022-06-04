@@ -22,4 +22,4 @@ echo 'src-git small https://github.com/kenzok8/small-package' >>feeds.conf.defau
 #echo 'src-git telephony https://git.openwrt.org/feed/telephony.git'>>feeds.conf.default
 
 #更换内核 5.4  5.10 5.15
-sed -i "s/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=5.10/g" target/linux/ramips/Makefile
+#sed -i "s/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=5.10/g" target/linux/ramips/Makefile
