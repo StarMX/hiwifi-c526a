@@ -16,6 +16,8 @@ sed -i 's/CONFIG_PACKAGE_vsftpd/#CONFIG_PACKAGE_vsftpd/g' .config
 sed -i 's/CONFIG_VSFTPD_USE_UCI_SCRIPTS/#CONFIG_VSFTPD_USE_UCI_SCRIPTS/g' .config
 
 
+sed -i 's/CONFIG_PACKAGE_luci-app-samba4/#CONFIG_PACKAGE_luci-app-samba4/g' .config
+
 sed -i 's/CONFIG_DEFAULT_luci-app-filetransfer/#CONFIG_DEFAULT_luci-app-filetransfer/g' .config
 sed -i 's/CONFIG_PACKAGE_luci-app-filetransfer/#CONFIG_PACKAGE_luci-app-filetransfer/g' .config
 sed -i 's/CONFIG_PACKAGE_luci-i18n-filetransfer/#CONFIG_PACKAGE_luci-i18n-filetransfer/g' .config
