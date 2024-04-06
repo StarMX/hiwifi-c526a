@@ -36,3 +36,10 @@ sed -i 's/CONFIG_PACKAGE_adbyby/#CONFIG_PACKAGE_adbyby/g' .config
 sed -i 's/CONFIG_DEFAULT_luci-app-accesscontrol/#CONFIG_DEFAULT_luci-app-accesscontrol/g' .config
 sed -i 's/CONFIG_PACKAGE_luci-app-accesscontrol/#CONFIG_PACKAGE_luci-app-accesscontrol/g' .config
 sed -i 's/CONFIG_PACKAGE_luci-i18n-accesscontrol/#CONFIG_PACKAGE_luci-i18n-accesscontrol/g' .config
+
+
+# 固件架构
+cat >> .config <<EOF
+CONFIG_TARGET_ipq40xx=y
+CONFIG_TARGET_ipq40xx_DEVICE_hiwifi_c526a=y
+EOF
